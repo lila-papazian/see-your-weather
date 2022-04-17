@@ -1,9 +1,13 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "see-your-weather",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A simple way to look at the weather in a place.",
+  "author": {
+    "name": "Lila Papazian",
+    "email": "lilapapazian@gmail.com"
+  },
   "version": "0.1.0",
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -14,6 +18,9 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.6.1",
     "gatsby": "^4.12.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
@@ -23,9 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/lila-papazian/see-your-weather.git"
   }
 }
